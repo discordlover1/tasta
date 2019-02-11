@@ -21,7 +21,7 @@ client.login("NTQ0NDc3MDIwMjQ0MTQ4MjI1.D0Ls5Q.10F6ZVBsCAVl-xNjTJbDNhfmapY");
 
 
 
-var prefix = ('.')
+var prefix = ('s')
 client.on('message', message => {
     if (message.author.bot) return;
      if (message.content === prefix + "help") {
@@ -88,7 +88,7 @@ bot invite link: https://bit.ly/2LGyOUu
 
 
 
-var prefix = ('.')
+var prefix = ('s')
 client.on('message', message => {
     if (message.author.id === client.user.id) return;
     if (message.guild) {
@@ -120,7 +120,7 @@ return;
 
 
 
-var prefix = ('.')
+var prefix = ('s')
 client.on("message", message => {
 
             if (message.content.startsWith(prefix + "bc2")) {
